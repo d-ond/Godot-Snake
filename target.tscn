@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbt7s68pfulhb"]
+
+[ext_resource type="Script" path="res://target.gd" id="1_ynrqs"]
+
+[node name="target" type="Node2D"]
+script = ExtResource("1_ynrqs")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.419608, 1, 1, 1)
+polygon = PackedVector2Array(0, 0, 0, 16, 16, 16, 16, 0)
